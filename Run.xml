@@ -1,0 +1,27 @@
+<suite name="leafAuto">
+    <test name="test basic auth">
+        <classes>
+        <class name="Testcase1"/>
+        </classes>
+    </test>
+    <test name="test alert">
+        <classes>
+            <class name="Testcase2"/>
+        </classes>
+    </test>
+    <test name="test frame">
+        <classes>
+            <class name="Testcase3"/>
+        </classes>
+    </test>
+    <test name="test window">
+        <classes>
+            <class name="Testcase4"/>
+        </classes>
+    </test>
+    <test name="test window">
+        <classes>
+            <class name="Testcase5"/>
+        </classes>
+    </test>
+</suite>
