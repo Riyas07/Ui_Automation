@@ -1,4 +1,7 @@
 <suite name="leafAuto">
+    <listeners>
+        <listener class-name="Report"/>
+    </listeners>
     <test name="test basic auth">
         <classes>
         <class name="Testcase1"/>
@@ -19,7 +22,7 @@
             <class name="Testcase4"/>
         </classes>
     </test>
-    <test name="test window">
+    <test name="test drag">
         <classes>
             <class name="Testcase5"/>
         </classes>

@@ -15,11 +15,11 @@ public   WebDriver driver;
      driver= Drivermanager.getInstance().getDriver();
        driver.get(Util.getInstance().getBaseUril());
     }
-//    @AfterTest
-//    public void tearDown()
-//    {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void tearDown()
+    {
+        driver.quit();
+    }
 
 
 }
