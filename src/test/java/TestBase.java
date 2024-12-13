@@ -9,7 +9,7 @@ import orgAutomation.Util.Util;
 public class TestBase {
 public   WebDriver driver;
     @BeforeTest
-    public void base()
+    public void setUp()
     {
         BrowserManager.getInstance().setBrowser();
      driver= Drivermanager.getInstance().getDriver();

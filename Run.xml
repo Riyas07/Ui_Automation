@@ -27,4 +27,14 @@
             <class name="Testcase5"/>
         </classes>
     </test>
+    <test name="test textbox">
+        <classes>
+            <class name="Testcase6"/>
+        </classes>
+    </test>
+    <test name="test checkbox">
+        <classes>
+            <class name="Testcase7"/>
+        </classes>
+    </test>
 </suite>
