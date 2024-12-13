@@ -1,7 +1,13 @@
 <suite name="leafAuto">
     <listeners>
         <listener class-name="Report"/>
+        <listener class-name="retry.transformer"/>
     </listeners>
+    <groups>
+        <run>
+            <include name="sanity"/>
+        </run>
+    </groups>
     <test name="test basic auth">
         <classes>
         <class name="Testcase1"/>

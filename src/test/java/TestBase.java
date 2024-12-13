@@ -8,14 +8,14 @@ import orgAutomation.Util.Util;
 
 public class TestBase {
 public   WebDriver driver;
-    @BeforeTest
+    @BeforeTest(alwaysRun = true,dependsOnGroups = {"sanity"})
     public void setUp()
     {
         BrowserManager.getInstance().setBrowser();
      driver= Drivermanager.getInstance().getDriver();
        driver.get(Util.getInstance().getBaseUril());
     }
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void tearDown()
     {
         driver.quit();
